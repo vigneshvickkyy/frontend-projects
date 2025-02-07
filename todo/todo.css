@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+}
+#head{
+    border: 1px solid black;
+    color: white;
+    background-color: red;
+    height: 10vh;
+}
+h1{
+    text-align: center;
+}
+div{
+    height: auto;
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+#input{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 21%;
+    min-height: 3vh;
+    border: 1px dashed black;
+}
+#but1{
+    margin-left: 1%;
+    border: 1px dotted beige;
+    min-height: 3vh;
+    width: 19%;
+}
+#but1:hover{
+    background-color: red;
+    color: white;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+th, td{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.delete-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.delete-btn:hover{
+    background-color: darkred;
+}
